@@ -1,0 +1,11 @@
+Hardware: Replace bussed resistor networks with individual 0805 pull-ups
+
+- Removed 9-pin RN1 and RN2 symbols and isolated array footprints.
+- Placed individual 10k 0805 pull-up resistors for all D-pad, action, and shoulder buttons.
+- Resolves footprint pad mismatch and optimizes the board for hybrid PCBA/hand-soldering.
+
+Hardware: Update PS Vita joystick FPC footprints to 6-pin
+
+- Changed J2 and J3 symbols and footprints from 4-pin to 1x06 0.5mm pitch FPC connectors.
+- Ensures physical and electrical compatibility with PS Vita 2000 analog sticks.
+
